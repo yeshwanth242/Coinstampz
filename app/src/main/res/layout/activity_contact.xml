@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Contact">
+
+    <ImageView
+        android:id="@+id/buis"
+        android:layout_width="230dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/business" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="163dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="35dp"
+        android:text="Contact Us"
+        android:textColor="#FF5722"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/entname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buis" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/entname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/messg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_editor_absoluteY="300dp">
+
+        <EditText
+            android:id="@+id/edname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/messg"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="306dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entname"
+        app:layout_editor_absoluteY="370dp">
+
+        <EditText
+            android:id="@+id/edmsg"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:hint="Write Us" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnsub"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/teal_200"
+        android:text="Submit"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/tw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/messg"
+        app:layout_editor_absoluteY="520dp" />
+
+    <ImageView
+        android:id="@+id/fb"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="88dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ln"
+        app:layout_constraintTop_toBottomOf="@+id/btnsub"
+        app:srcCompat="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/tw"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fb"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toEndOf="@+id/ln"
+        app:layout_constraintTop_toBottomOf="@+id/messg"
+        app:layout_constraintVertical_bias="0.722"
+        app:srcCompat="@drawable/twitter" />
+
+    <ImageView
+        android:id="@+id/ln"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginEnd="135dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnsub"
+        app:srcCompat="@drawable/linkedin" />
+</androidx.constraintlayout.widget.ConstraintLayout>

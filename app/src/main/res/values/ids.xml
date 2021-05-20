@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="entname" type="id"/>
+    <item name="edname" type="id"/>
+    <item name="messg" type="id"/>
+    <item name="edmsg" type="id"/>
+    <item name="ln" type="id"/>
+    <item name="tw" type="id"/>
+    <item name="fb" type="id"/>
+    <item name="btnsub" type="id"/>
+    <item name="buis" type="id"/>
+</resources>

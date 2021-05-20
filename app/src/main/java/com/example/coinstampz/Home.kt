@@ -11,8 +11,20 @@ class Home : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        profile.setOnClickListener {
-            val intent = Intent(this, Profile::class.java);
+        Search.setOnClickListener{
+            val intent = Intent(this, Webview::class.java);
+            startActivity(intent);
+        }
+        coinspage.setOnClickListener{
+            val intent = Intent(this, Coinspage::class.java);
+            startActivity(intent);
+        }
+        profile.setOnClickListener{
+            val intent = Intent(this, Profileex::class.java);
+            startActivity(intent);
+        }
+        contact.setOnClickListener{
+            val intent = Intent(this, Contact::class.java);
             startActivity(intent);
         }
     }

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "897383810451",
+    "project_id": "coinstampz",
+    "storage_bucket": "coinstampz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897383810451:android:86b071330e9543a16b9466",
+        "android_client_info": {
+          "package_name": "com.example.coinstampz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897383810451-46o0ln6c2sarhp8llnr4s9nfqt7c0et6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV4lWWTWJMfRa_UD6q8lawWXmrc9tI3YY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897383810451-46o0ln6c2sarhp8llnr4s9nfqt7c0et6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

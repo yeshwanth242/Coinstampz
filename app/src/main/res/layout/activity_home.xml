@@ -32,6 +32,7 @@
             android:textStyle="bold" />
 
         <ImageView
+            android:id="@+id/Search"
             android:layout_width="30dp"
             android:layout_height="40dp"
             android:layout_alignParentRight="true"
@@ -63,15 +64,15 @@
                 android:fontFamily="arial"
                 android:text="About us"
                 android:textColor="#ff6600"
-                android:textSize="20dp"
+                android:textSize="30dp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="340dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="1dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-black"
-                android:text="This application displays the images of Indian Republic coins from 1950 to till date of each mint. The heart of this site is the images, which allows numismatist to see the existence of the coin.The coins thereafter to till date are known as Decimal Coinage. Some special coins were minted in memory of special events these are known as Commemorative Coins."
+                android:text="This application displays the images of Indian Republic coins from 1950 to till date of each mint and Old Stamps. The heart of this site is the images, which allows Numismatist/Philatelist.Displaying webpage on Stamps of various categories.A coins tab which is ordered according to periods.  "
                 android:textColor="#fff"
                 android:textSize="20dp"
                 android:textStyle="" />
@@ -95,7 +96,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="COIN COLLECTIONS"
+            android:text="COIN &amp; STAMP COLLECTIONS"
             android:textSize="26dp"
             android:textColor="#000000"
             android:textStyle="bold"
@@ -121,6 +122,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/coinspage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -146,13 +148,13 @@
                         android:layout_width="99dp"
                         android:layout_height="110dp"
                         android:layout_marginTop="10dp"
-                        android:background="@drawable/republiccoins" />
+                        android:background="@drawable/stamp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-black"
-                        android:text="Republic Coins"
+                        android:text="Old Stamps"
                         android:textColor="#ffffff"
                         android:textSize="15dp"
                         android:layout_marginTop="8dp"
@@ -245,19 +247,20 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/bg"
+                android:background="@drawable/contact"
                 android:orientation="horizontal"
-                android:paddingLeft="180dp"
-                android:paddingTop="90dp">
+                android:paddingLeft="10dp"
+                android:paddingTop="75dp">
 
                 <TextView
+                    android:id="@+id/contact"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="CONTACT US\nCoinStampz@gmail.com"
-                    android:textColor="#FFFEFD"
+                    android:textColor="#FFFFFF"
                     android:fontFamily="sans-serif-black"
-                    android:textSize="18dp"
-                    android:textStyle="bold" />
+                    android:textSize="26dp"
+                    android:textFontWeight="900"/>
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>

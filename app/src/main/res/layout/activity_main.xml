@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BFBCBC"
+    android:background="#18181C"
     tools:context=".MainActivity">
 
     <TextView
@@ -31,8 +31,8 @@
         android:layout_height="89dp"
         android:layout_marginStart="23dp"
         android:layout_marginBottom="90dp"
-        android:text="Welcome to world of Numismatics."
-        android:textColor="#2A2A2B"
+        android:text="Welcome to world of Numismatics &amp; Philatelist"
+        android:textColor="#F6F5F8"
         android:textSize="25sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toTopOf="@+id/start"
